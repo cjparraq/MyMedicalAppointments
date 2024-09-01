@@ -30,6 +30,12 @@ public class Doctor extends User {
             "\nAvailable Appointments: " + getAvailableAppointments();
     }
 
+    @Override
+    public void showDataUser() {
+        System.out.println("Empleado del Hospital: Cruz Roja");
+        System.out.println("Departamento: Oncología");
+    }
+
     //Inner class
     @Setter
     @Getter

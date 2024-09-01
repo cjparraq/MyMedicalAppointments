@@ -43,4 +43,7 @@ public abstract class User {
     public String toString() {
         return "UserName: " + name + "\nEmail: " + email;
     }
+
+    public abstract void showDataUser();
+
 }
